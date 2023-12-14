@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+body h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+body h2 {
+    font-size: 26px;
+    font-weight: normal;
+    color: #182c61;
+}
+
+body h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #182c61;
+}
+
+body p {
+    font-size: 20px;
+    color: #182c61;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-list img,
+.social-media img {
+    height: 24px;
+}
+
+.brand-list li,
+.social-media li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+#contato .container {
+    display: block;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #405eae;
+    color: #3c3c3c;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #182c61;
+}
+
+
+/* Coloquei a cor conforme na video aula, mas não aplicou a cor ao parágrafo. */
+footer {
+    background-color: #182c61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+footer p {
+    color: #ecf0f1;
+    font-size: 14px;
+}
