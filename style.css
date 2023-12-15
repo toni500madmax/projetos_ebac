@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(185, 184, 184);
+}
+
+body h1,
+body h2,
+body h3,
+body p {
+    position: relative;
+}
+
+header h1 {
+    font-size: 46px;
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+body h2 {
+    font-size: 30px;
+}
+
+body h3 {
+    font-size: 24px;
+}
+
+body p {
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+section h2,
+section h3,
+footer h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header .container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+body>header {
+    background-color: #059399;
+    padding: 16px 0;
+    color: #ecf0f1;
+}
+
+header li {
+    display: inline;
+    font-weight: bold;
+}
+
+header li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn-retorno {
+    text-align: end;
+    margin-top: 50px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 20%;
+    height: 300px;
+}
+
+#starfield h3,
+#gears5 h3,
+#deadspace3 h3,
+#elden-ring h3,
+#cod-vanguard h3,
+#darksouls3 h3 {
+    margin-top: 20px;
+    padding: 16px 16px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: #059399;
+}
+
+.imagens img {
+    width: 260px;
+    max-height: 180px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border-radius: 5% 5% 1% 1%;
+    border: 1px solid black;
+}
+
+#starfield .conteudo,
+#gears5 .conteudo,
+#deadspace3 .conteudo,
+#elden-ring .conteudo,
+#cod-vanguard .conteudo,
+#darksouls3 .conteudo {
+    display: none;
+}
+
+#starfield:hover .conteudo,
+#gears5:hover .conteudo,
+#deadspace3:hover .conteudo,
+#elden-ring:hover .conteudo,
+#cod-vanguard:hover .conteudo,
+#darksouls3:hover .conteudo {
+    display: block;
+}
+
+#starfield:hover,
+#gears5:hover,
+#deadspace3:hover,
+#elden-ring:hover,
+#cod-vanguard:hover,
+#darksouls3:hover {
+    padding: 36px 36px;
+    width: 25%;
+    height: 650px;
+    margin-top: 0;
+    box-shadow: 7px 2px 20px black;
+    border-radius: 10%;
+    transition-duration: 1s;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#contato .articles article {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.xbox-series img {
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#xbox-info {
+    width: 600px;
+    padding: 16px 16px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+header a {
+    padding: 16px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+form button,
+.btn-retorno a {
+    background-color: #004D47;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: rgb(185, 184, 184);
+    color: black;
+    border-radius: 10px;
+}
+
+form button:hover,
+.btn-retorno a:hover {
+    background-color: #059399;
+    color: black;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #059399;
+}
+
+.container footer {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+    padding: 16px 0;
+    text-align: center;
+    background-color: #059399;
+}
